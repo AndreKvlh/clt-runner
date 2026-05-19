@@ -1,0 +1,40 @@
+Telas, Elementos e Fluxo de Jogo
+
+O jogo é composto por duas telas:
+	-Tela de Introdução:
+		Composta de uma série de quatro imagens full-screen que contam a lore do jogo
+		em forma de quadrinhos e também uma imagem que indica para apertar espaço para
+		trocar de página;
+	-Tela de Jogo:
+		Composta do jogador que alterna entre direita e esquerda, coletáveis que são
+		comidas como coxinha, hambúrguer e batata-frita e os inimigos que são carteiras
+		de trabalho com chifres de demônio, além do cenário ser uma rua;
+
+Fluxo do jogo é:
+Tela de Introdução -> Tela de Jogo -> Reset da Tela do Jogo se colidir com um inimigo.
+
+Objetivo, Obstáculos e Regras
+
+O objetivo do jogo consiste em coletar todas as comidas e permanecer inatingido durante toda 
+a sua caminhada. Para impedir isso, há carteiras de trabalho que atuam como obstáculos, no qual
+ao colidir com o jogador irá fazer ele resetar do começo. Podemos desviar das carteiras 
+apertando as setas para as laterais para trocar de faixa.
+
+Gameplay/Experiência de Jogo
+-Como é a gameplay do jogo?
+-Como o jogo é jogado?
+
+O jogo põe seu personagem para andar e proceduralmente ele irá gerando os inimigos e comidas,
+no qual com as setas você irá trocar de faixa para coletar as comidas e desviar dos inimigos.
+
+Feedback do Jogo
+
+É um jogo divertido, é legal a proposta e toda a lore por trás que é bem humorada porém há
+alguns pontos de melhora:
+	-Os coletáveis não adicionam nada como score ou coisa do tipo, seria interessante que
+	cada comida aumentasse o score e ao colidir com algo fazer com que seja colocado um
+	leaderboard para comparar quantos pontos conseguiu;
+	-A dificuldade é fácil, não tendo nenhuma complicação. Pode ser uma boa adicionar um
+	aumento de velocidade a medida que o personagem caminha e também variações de inimigos
+	que fazem movimentos diferentes;
+	-Acho que carece de uma tela de transição para a história e uma tela de endgame.
