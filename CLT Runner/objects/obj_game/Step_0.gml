@@ -13,3 +13,10 @@ if(obj_personagem.pontuacao >= level * 100) {
 	level++;
 	show_debug_message(level);
 }
+
+//Condição que começa a gerar carros no cenário a partir de 500
+//pontos
+if(level == 6 && !gerar_carro) {
+	alarm[2] = 300;
+	gerar_carro = true;
+}

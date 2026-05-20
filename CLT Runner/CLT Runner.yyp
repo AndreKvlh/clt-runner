@@ -16,6 +16,7 @@
     {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Comidas","folderPath":"folders/Objects/Comidas.yy","name":"Comidas","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Obstáculos","folderPath":"folders/Objects/Obstáculos.yy","name":"Obstáculos","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Paths","folderPath":"folders/Paths.yy","name":"Paths","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -42,6 +43,7 @@
   "resources":[
     {"id":{"name":"fnt_pontuacao","path":"fonts/fnt_pontuacao/fnt_pontuacao.yy",},},
     {"id":{"name":"obj_batata","path":"objects/obj_batata/obj_batata.yy",},},
+    {"id":{"name":"obj_carro","path":"objects/obj_carro/obj_carro.yy",},},
     {"id":{"name":"obj_chocolate","path":"objects/obj_chocolate/obj_chocolate.yy",},},
     {"id":{"name":"obj_clt","path":"objects/obj_clt/obj_clt.yy",},},
     {"id":{"name":"obj_comida","path":"objects/obj_comida/obj_comida.yy",},},

@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_clt",
+  "%Name":"obj_carro",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_personagem","path":"objects/obj_personagem/obj_personagem.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_clt",
+  "name":"obj_carro",
   "overriddenProperties":[],
   "parent":{
     "name":"Obstáculos",
     "path":"folders/Objects/Obstáculos.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_clt",
+    "path":"objects/obj_clt/obj_clt.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_clt",
-    "path":"sprites/spr_clt/spr_clt.yy",
+    "name":"spr_carro",
+    "path":"sprites/spr_carro/spr_carro.yy",
   },
   "spriteMaskId":null,
   "visible":true,
