@@ -7,6 +7,12 @@ var pos_y = -100;
 //instanciar
 var obj_selecionado = choose(obj_batata, obj_chocolate, obj_coxinha, obj_hamburguer);
 
+//No caso de estar acima de 300 pontos, há uma chance da comida vir vencida (20%)
+if(level >= 4) {
+	var rolagem = random_range(1, 100);
+	if(rolagem >= 80) obj_selecionado = obj_comida_vencida;
+}
+
 //Com isso, vamos gerar o objeto na sala
 instance_create_layer(pos_x, pos_y, "Obstaculos", obj_selecionado);
 

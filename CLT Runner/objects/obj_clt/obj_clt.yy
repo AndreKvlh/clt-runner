@@ -10,8 +10,8 @@
   "name":"obj_clt",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Obstáculos",
+    "path":"folders/Objects/Obstáculos.yy",
   },
   "parentObjectId":null,
   "persistent":false,

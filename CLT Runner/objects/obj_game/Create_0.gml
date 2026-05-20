@@ -1,9 +1,16 @@
+//Variável que controla o level, que basicamente regula o aumento de velocidade
+//da room, dos obstáculos e dos coletáveis
+level = 1;
+
 //Iremos criar um alarme que irá ter um valor randômico de frames para ser ativado
 //este alarme servirá para gerar randomicamente instância de obstáculos
 alarm[0] = random_range(60, 120);
 
 //Já o alarme abaixo irá gerar os consumíveis;
 alarm[1] = random_range(30, 90);
+
+//Controlador para gerar carros no jogo
+gerar_carro = false;
 
 //Por fim vamos colocar uma soundtrack durante toda a
 //gameplay
