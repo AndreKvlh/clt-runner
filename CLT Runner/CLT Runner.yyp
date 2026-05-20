@@ -40,10 +40,13 @@
   "name":"CLT Runner",
   "resources":[
     {"id":{"name":"obj_clt","path":"objects/obj_clt/obj_clt.yy",},},
+    {"id":{"name":"obj_comida","path":"objects/obj_comida/obj_comida.yy",},},
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},
     {"id":{"name":"obj_personagem","path":"objects/obj_personagem/obj_personagem.yy",},},
     {"id":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
     {"id":{"name":"scr_config","path":"scripts/scr_config/scr_config.yy",},},
+    {"id":{"name":"snd_jogo","path":"sounds/snd_jogo/snd_jogo.yy",},},
+    {"id":{"name":"snd_pickup","path":"sounds/snd_pickup/snd_pickup.yy",},},
     {"id":{"name":"spr_aviso","path":"sprites/spr_aviso/spr_aviso.yy",},},
     {"id":{"name":"spr_batata","path":"sprites/spr_batata/spr_batata.yy",},},
     {"id":{"name":"spr_chocolate","path":"sprites/spr_chocolate/spr_chocolate.yy",},},
