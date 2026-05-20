@@ -39,6 +39,8 @@
   },
   "name":"CLT Runner",
   "resources":[
+    {"id":{"name":"obj_clt","path":"objects/obj_clt/obj_clt.yy",},},
+    {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},
     {"id":{"name":"obj_personagem","path":"objects/obj_personagem/obj_personagem.yy",},},
     {"id":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
     {"id":{"name":"scr_config","path":"scripts/scr_config/scr_config.yy",},},
