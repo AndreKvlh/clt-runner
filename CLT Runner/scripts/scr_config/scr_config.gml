@@ -6,3 +6,7 @@ randomise();
 #macro POSICAO_ESQ 32
 #macro POSICAO_DIR room_get_info(rm_jogo).width - 32
 #macro CENTRO_SALA room_get_info(rm_jogo).width / 2
+
+//Variáveis globais
+global.hiscore = 0;
+global.vspeed_geral = 4;

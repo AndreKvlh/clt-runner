@@ -1,3 +1,7 @@
+//Variável que controla o level, que basicamente regula o aumento de velocidade
+//da room, dos obstáculos e dos coletáveis
+level = 1;
+
 //Iremos criar um alarme que irá ter um valor randômico de frames para ser ativado
 //este alarme servirá para gerar randomicamente instância de obstáculos
 alarm[0] = random_range(60, 120);

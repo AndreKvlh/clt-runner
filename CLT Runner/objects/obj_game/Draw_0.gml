@@ -9,3 +9,6 @@ var pos_y = 20;
 //texto com borda
 draw_text_with_border(pos_x, pos_y, obj_personagem.pontuacao, c_white, c_black, 3);
 
+//Iremos desenhar o hiscore somente se ele for maior que zero
+if (global.hiscore > 0) draw_text_with_border(CENTRO_SALA, pos_y, global.hiscore, c_yellow, c_black, 3);
+

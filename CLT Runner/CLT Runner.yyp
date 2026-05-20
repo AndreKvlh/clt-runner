@@ -58,6 +58,7 @@
     {"id":{"name":"snd_pickup","path":"sounds/snd_pickup/snd_pickup.yy",},},
     {"id":{"name":"spr_aviso","path":"sprites/spr_aviso/spr_aviso.yy",},},
     {"id":{"name":"spr_batata","path":"sprites/spr_batata/spr_batata.yy",},},
+    {"id":{"name":"spr_carro","path":"sprites/spr_carro/spr_carro.yy",},},
     {"id":{"name":"spr_chocolate","path":"sprites/spr_chocolate/spr_chocolate.yy",},},
     {"id":{"name":"spr_clt","path":"sprites/spr_clt/spr_clt.yy",},},
     {"id":{"name":"spr_coxinha","path":"sprites/spr_coxinha/spr_coxinha.yy",},},
