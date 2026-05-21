@@ -1,7 +1,10 @@
+//Devido ao HTML bugar o randomise, iremos usar esta função para inicializar
+//uma seed no controlador universal do jogo (o mesmo que roda o LootLocker)
+function inicializar_seed() {
+	var datetime = date_current_datetime();
+	random_set_seed(datetime);
+}
 
-
-//Função para criar uma nova seed para de fato randomizar o jogo
-randomise();
 
 //Constante que ajudará a gente posicionar os objetos na sala. Ao usar eles, irá posicionar
 //O eixo na posição X dita
