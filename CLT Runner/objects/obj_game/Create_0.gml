@@ -12,6 +12,10 @@ alarm[1] = random_range(30, 90);
 //Controlador para gerar carros no jogo
 gerar_carro = false;
 
+//Controlador de quando houver game over
+game_over = false;
+menu_game_over = false;
+
 //Por fim vamos colocar uma soundtrack durante toda a
 //gameplay
 audio_sound_gain(snd_jogo, 0.1);

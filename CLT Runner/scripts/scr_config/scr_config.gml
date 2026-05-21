@@ -1,3 +1,5 @@
+
+
 //Função para criar uma nova seed para de fato randomizar o jogo
 randomise();
 

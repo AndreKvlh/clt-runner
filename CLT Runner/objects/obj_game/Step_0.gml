@@ -1,3 +1,11 @@
+//Esta função será executada por primeiro para averiguar se houve
+//game over
+if(game_over && !menu_game_over) {
+	create_gameover_menu()
+}
+
+if(game_over) return;
+
 //A cada frame, será verificado se a pontuação do jogador é igual ou maior
 //ao level multiplicado por 100
 if(obj_personagem.pontuacao >= level * 100) {
@@ -11,7 +19,6 @@ if(obj_personagem.pontuacao >= level * 100) {
 	//Aumenta a variável level a fim de aumentar a barreira para um
 	//novo incremento
 	level++;
-	show_debug_message(level);
 }
 
 //Condição que começa a gerar carros no cenário a partir de 500

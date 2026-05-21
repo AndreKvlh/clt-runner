@@ -3,10 +3,15 @@
 //do Creed e Jesus leva pra perto
 if (obj_personagem.qtd_monster == 2) {
 	global.hiscore = obj_personagem.pontuacao;
-	global.vspeed_geral = 4;
-	room_restart();
+	obj_game.game_over = true;
+	instance_destroy(other);
 	return;
+	/*
+	global.vspeed_geral = 4;
+	room_restart();*/
 }
+
+obj_personagem.pontuacao += pontos;
 
 //No uso normal, ele vai te deixar imune por uns 120 frames
 obj_personagem.qtd_monster++;
