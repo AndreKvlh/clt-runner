@@ -10,6 +10,7 @@
     {"name":"inst_72343371","path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"inst_681623A7","path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"inst_4AE6BFCE","path":"rooms/rm_menu/rm_menu.yy",},
+    {"name":"inst_5471CBD7","path":"rooms/rm_menu/rm_menu.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -23,6 +24,7 @@
     {"$GMRInstanceLayer":"","%Name":"Botoes","depth":200,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_6FD6ABE4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6FD6ABE4","objectId":{"name":"obj_iniciar","path":"objects/obj_iniciar/obj_iniciar.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":176.0,"y":336.0,},
         {"$GMRInstance":"v4","%Name":"inst_72343371","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_72343371","objectId":{"name":"obj_leaderboard","path":"objects/obj_leaderboard/obj_leaderboard.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":176.0,"y":416.0,},
+        {"$GMRInstance":"v4","%Name":"inst_5471CBD7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5471CBD7","objectId":{"name":"obj_botao_audio","path":"objects/obj_botao_audio/obj_botao_audio.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.59374994,"scaleY":0.59374994,"x":304.0,"y":48.0,},
       ],"layers":[],"name":"Botoes","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_fundo","path":"sprites/spr_fundo/spr_fundo.yy",},"stretch":true,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":4.0,"vtiled":true,"x":0,"y":0,},
   ],

@@ -6,5 +6,8 @@ LootLockerSubmitScore("34581", global.hiscore);
 //Vamos zerar a pontuação
 global.hiscore = 0;
 
+//Resetar a velocidade também
+global.vspeed_geral = 4;
+
 //POR ENQUANTO vamos apenas resetar a room
 room_goto(rm_menu);

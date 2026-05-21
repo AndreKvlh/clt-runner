@@ -12,3 +12,4 @@ randomise();
 //Variáveis globais
 global.hiscore = 0;
 global.vspeed_geral = 4;
+global.audio_on = true;
