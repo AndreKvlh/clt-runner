@@ -5,6 +5,13 @@ image_speed = 0.5;
 //Variável que controla a pontuação atual do jogador
 pontuacao = 0;
 
+//Variável que controla a quantidade de Monsters ingeridos
+//pelo jogador
+qtd_monster = 0;
+
 //Variável que controla se o jogador está paralizado por uma comida
 //estragada
 paralisado = false;
+
+//Variável que controla se o jogador está sob efeito de Monster
+monster = false;
