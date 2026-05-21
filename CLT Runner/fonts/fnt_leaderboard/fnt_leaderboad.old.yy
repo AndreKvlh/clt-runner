@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"fnt_pontuacao",
+  "%Name":"fnt_pontuacao_1",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":33,
@@ -117,7 +117,7 @@
   "last":0,
   "lineHeight":42,
   "maintainGms1Font":false,
-  "name":"fnt_pontuacao",
+  "name":"fnt_pontuacao_1",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",
